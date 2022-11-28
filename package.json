@@ -1,5 +1,26 @@
 {
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "This project is a README.md file generator including all parts of a professional README.md file.",
+  "main": "index.js",
   "dependencies": {
-    "inquirer": "^8.2.4"
-  }
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noemiegrau/readme-generator.git"
+  },
+  "keywords": [
+    "readme-generator"
+  ],
+  "author": "Noemie Grau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noemiegrau/readme-generator/issues"
+  },
+  "homepage": "https://github.com/Noemiegrau/readme-generator#readme"
 }
