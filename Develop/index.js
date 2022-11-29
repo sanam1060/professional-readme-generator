@@ -3,15 +3,7 @@ const fs = require("fs");
 const inquirer = require('inquirer');
 const generateMarkdown = require("./generateMarkdown");
 
-// ARRAY DATA
-// let data = [
-//     {
-//         projectTitle: ${projectTitle}
-//     }
-// ];
-
 // TODO: Create an array of questions for user input
-
 const questions = portfolioData => {
     return inquirer.prompt([
       {
@@ -139,22 +131,22 @@ const questions = portfolioData => {
     ]);
 };
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
 questions()
     .then(portfolioData => {
-        const pageMd = generateMarkdown(portfolioData);
-        
-        fs.writeFile('index.md', pageMd, err => {
+      const pageMd = generateMarkdown(portfolioData);
+
+      // TODO: Create a function to write README file
+      fs.writeFile("README.md", pageMd, (err) => {
         if (err) throw new Error(err);
-        
-        console.log('Page created! Check out index.md in this directory to see it!');
+
+        console.log(
+          "Page created! Check out index.md in this directory to see it!"
+        );
+      });
     });
-});
 
 // TODO: Create a function to initialize app
-function init() {};
+// function init() {};
 
 // Function call to initialize app
-init();
+//init();
