@@ -3,7 +3,8 @@
 ## **_Table of contents_**
 * [Description of the project](#description-of-the-project)
 * [Technologies used](#technologies-used)
-* [Video] (#video)
+* [Usage] (#usage)
+* [Installation] (#installation)
 * [Link URL to GitHub Repository](#link-URL-to-GitHub-repository)
 
 ## **_Description of the project_**
@@ -16,7 +17,12 @@ Project is created using:
 * JavaScript
 * Nodejs
 
-## **_Video_**
+## **_Usage_**
+
+## **_Installation_**
+1.
+2.
+3.
 
 ## **_Link URL to GitHub Repository_**
 https://github.com/sanam1060/professional-readme.generator
