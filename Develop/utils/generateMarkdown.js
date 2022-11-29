@@ -18,28 +18,48 @@ function renderLicenseSection(license) {}
 
 //REUSE THE DATA.TITLE, DATA.ETC
 
-const generateMarkdown = (projectName, github) => {
-  return `
-    # **_Project 1 ${projectName}_**
-    ## **_Table of contents_**
-    * [Description of the project](#description-of-the-project)
-    * [Technologies used](#technologies-used)
-    * [Mockup](#mockup)
-    * [Link URL to Trello Board](#link-URL-to-Trello-Board)
-    * [Link URL to deployed app on GitHub](#link-URL-to-deployed-app-on-GitHub)
-    * [Link URL to GitHub Repository](#link-URL-to-GitHub-repository)
+const generateMarkdown = (projectTitle, description, installation, usage, contributing, tests, license, github, emailAddress
+  ) => {
+    return `
+    # **_${projectTitle}_**
     
     ## **_Description of the project_**
+    ${description}
     
+    # **_Project 1 ${projectName}_**
+    ## **_Table of contents_**
+    * [Description](#description)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [License](#license)
+    * [Questions](#questions)
+
     ## **_Technologies used_**
     Project is created using:
-    * HTML5
-    * CSS3
-    * JavaScript
-    
-    ## **_Link URL to GitHub Repository_**
-    https://github.com/${github}/${projectName}
+    ${languages}
+
+    ## **_Installation_**
+    ${installation}
+
+    ## **_Usage_**
+    ${usage}
+
+    ## **_Contributing_**
+    ${contributing}
+
+    ## **_Tests_**
+    ${tests}
+
+    ## **_License_**
+    ${license}
+
+    ## **_Questions_**
+
+    Don't hesitate to visit [my GitHub](https://github.com/${github})
+    or reach me on my [email address](mailto:${emailAddress}) for additional questions.
     `;
-};
+  };
 
 module.exports = generateMarkdown;
