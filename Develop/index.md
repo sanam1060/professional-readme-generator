@@ -1,7 +1,7 @@
 # **_Sanam_**
 
 ## **_Description of the project_**
-This is a professional readme generator
+This project generates a professional readme
 
 ## **_Table of contents_**
 * [Description](#description)
@@ -22,11 +22,10 @@ undefined
 undefined
 
 ## **_Tests_**
-Test 1, test 2
+test 1, test 2
 
 ## **_License_**
-GPLv3
 
 ## **_Questions_**
 Don't hesitate to visit [my GitHub](https://github.com/sanam1060)
-or reach me on my [email address](mailto:https://github.com/sanam1060/professional-readme.generator) for additional questions.
+or reach me on my [email address](mailto:sanam@email.com) for additional questions.
