@@ -1,7 +1,8 @@
 # **_Sanam_**
 
-## **_Description of the project_**
-This project generates a professional readme
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## **_Description_**
 
 ## **_Table of contents_**
 * [Description](#description)
@@ -13,18 +14,19 @@ This project generates a professional readme
 * [Questions](#questions)
 
 ## **_Installation_**
-Step 1:, Step 2:
+1
 
 ## **_Usage_**
-undefined
+1
 
 ## **_Contributing_**
-undefined
+1
 
 ## **_Tests_**
-test 1, test 2
+1
 
 ## **_License_**
+Click [here](https://opensource.org/licenses/MIT) to access more information on the license.
 
 ## **_Questions_**
 Don't hesitate to visit [my GitHub](https://github.com/sanam1060)
