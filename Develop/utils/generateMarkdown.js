@@ -59,21 +59,6 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 
-// function renderLicenseSection(templateData, license) {
-//   if (!license) {
-//     return '';
-//   } else if (license) {
-//     for (i = 0; i < 1; i++) {
-//       return `
-//       ## **_License_**
-
-//       This project is covered under the ${templateData.license} license.
-//       Click [here](${renderLicenseLink(license)}) for more information on the license.
-//       `
-//     }
-//   }
-// };
-
 function renderLicenseSection(license) {
   if (!license) {
     return '';
@@ -89,8 +74,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 module.exports = (templateData, license) => {
   console.log(templateData, license);
-  return `
-  # **_${templateData.projectTitle}_**
+  return ` # **_${templateData.projectTitle}_**
 
   ${renderLicenseBadge(templateData.license)}
   
@@ -123,5 +107,7 @@ module.exports = (templateData, license) => {
   ## **_Questions_**
 
   Don't hesitate to visit [my GitHub](https://github.com/${templateData.github})
-  or reach me on my [email address](mailto:${templateData.emailAddress}) for additional questions.`;
+  or reach me on my [email address](mailto:${
+    templateData.emailAddress
+  }) for additional questions.`;
 };
