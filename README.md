@@ -20,9 +20,11 @@ Project is created using:
 ## **_Usage_**
 
 ## **_Installation_**
-1.
-2.
-3.
+1. Clone the repo and run it from the command line
+2. Change the working directory to ```Develop/```
+3. Install package.json with the required dependecies
+4. Download Inquirer.js
+5. Run ```index.js``` to launch the app
 
 ## **_Link URL to GitHub Repository_**
 https://github.com/sanam1060/professional-readme.generator
