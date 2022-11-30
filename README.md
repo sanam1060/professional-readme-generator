@@ -18,6 +18,8 @@ Project is created using:
 * Nodejs
 
 ## **_Usage_**
+Here's a screenshot of the application
+[!application-preview](./images/preview.png)
 
 ## **_Installation_**
 1. Clone the repository
@@ -27,4 +29,4 @@ Project is created using:
 5. Run ```index.js``` to launch the app
 
 ## **_Link URL to GitHub Repository_**
-https://github.com/sanam1060/professional-readme.generator
+https://github.com/sanam1060/professional-readme-generator
