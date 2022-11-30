@@ -19,7 +19,7 @@ Project is created using:
 
 ## **_Usage_**
 Here's a screenshot of the application
-[!application-preview](./images/preview.png)
+[!application preview](./images/preview.png)
 
 ## **_Installation_**
 1. Clone the repository
