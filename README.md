@@ -18,8 +18,9 @@ Project is created using:
 * Nodejs
 
 ## **_Usage_**
-Here's a screenshot of the application
-(./images/preview.png)
+Here's a screenshot of the application ![screenshot](./images/preview.png)
+The final application should work similr to the video
+![video](./professional-readme-generator.mov)
 
 ## **_Installation_**
 1. Clone the repository

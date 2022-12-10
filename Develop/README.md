@@ -1,4 +1,4 @@
- # **_Test_**
+ # **_test_**
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
@@ -27,9 +27,12 @@
   test
   
   ## **_License_**
-  This project is covered under the MIT license.
-  Click [here](https://opensource.org/licenses/MIT) to access more information on the license.
+      This project is covered under the MIT license.
+      Click [here](
+        https://opensource.org/licenses/MIT
+        ) to access more information on the license.
 
   ## **_Questions_**
+
   Don't hesitate to visit [my GitHub](https://github.com/test)
-  or reach me on my [email address](mailto:test@email.com) for additional questions.
+  or reach me on my [email address](mailto:test) for additional questions.
