@@ -19,8 +19,7 @@ Project is created using:
 
 ## **_Usage_**
 Here's a screenshot of the application ![screenshot](./images/preview.png)
-The final application should work similr to the video
-![video](./professional-readme-generator.mov)
+The final application should work similr to the video: https://youtu.be/UY5q5Idep2Y
 
 ## **_Installation_**
 1. Clone the repository

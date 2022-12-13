@@ -30,7 +30,7 @@
       This project is covered under the MIT license.
       Click [here](
         https://opensource.org/licenses/MIT
-        ) to access more information on the license.
+        ) to access  more information on the license.
 
   ## **_Questions_**
 
